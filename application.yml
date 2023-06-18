@@ -10,7 +10,9 @@ words: a,the
 
 ---
 spring:
-  profiles: sentence
+  config:
+    activate:
+      on-profile: sentence
 server:
   port: 8020
 words: notApplicable
