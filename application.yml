@@ -7,3 +7,10 @@ eureka:
 spring:
   profiles: article
 words: a,the
+
+---
+spring:
+  profiles: sentence
+server:
+  port: 8020
+words: notApplicable
