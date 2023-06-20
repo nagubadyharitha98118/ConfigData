@@ -5,18 +5,14 @@ eureka:
 
 ---
 spring:
-  config:
-    activate:
-      on-profile: article
+  profiles: article
   application:
     name: lab-4-article
 words: a,the
 
 ---
 spring:
-  config:
-    activate:
-      on-profile: sentence
+  profiles: sentence
   application:
     name: lab-4-sentence
 server:
